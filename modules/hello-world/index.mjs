@@ -1,6 +1,4 @@
-import express from 'express';
-
-const app = express();
+import { app } from '../common/app.mjs'
 
 app.get('/', (_, res) => {
   res.send('Hello World!');
